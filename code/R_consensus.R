@@ -23,7 +23,7 @@ dup.lines <- dup.lines %>%
   separate(col="full.id", into=c("short.id"), sep=":", remove=F, extra="drop")
 
 out.vcf <- vcf.in[,1:9] # initialize output
-for(short.name in unique(dup.lines$short.id)) { 
+for(short.name in unique(dup.lines$short.id)[c(1:2)]) { # use index here to choose which lines to calculate consensus for; here, lines "Z026E0043" and "Z026E0044"
   print(paste("Starting", short.name))
   print(Sys.time())
   # pull the column names for the current taxa
