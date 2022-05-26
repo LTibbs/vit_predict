@@ -1,6 +1,6 @@
 # Genomic Prediction of Tocochromanols in Exotic Maize
 
-This repository contains code used in the manuscript "Genomic prediction of tocochromanols in exotic maize" (manuscript in preparation). For more details, please see the paper or contact ltibbs@iastate.edu.
+This repository contains code used in the manuscript "Genomic prediction of tocochromanols in exotic maize" (manuscript in preparation). For more details, please contact ltibbs@iastate.edu.
 
 ## Optimal Training Population Design 
 
